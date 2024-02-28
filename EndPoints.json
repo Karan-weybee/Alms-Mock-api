@@ -1,5 +1,6 @@
 [
 {
-  "/api/employees" : "for get all employees"
+  "/api/employees" : "For get all employees",
+  "/api/employees/1":"For get Details of Employee"
 }
 ]
