@@ -18,9 +18,12 @@ app.get('/api/employees/:id',(req,res)=>{
     const employee= employees.find((employee)=>employee.EmployeeId==id)
     
     const user = {...employee,
-                   "Projects":["xyz"],
-                    "Manger":"abc",
-                    "Date Of Birth":"7/18/2003"
+                "Email":`${employee['First Name']}@gmail.com`,
+                "Gender":'Male',
+                "Address":"",
+                "Projects":["xyz"],
+                "Manger":"abc",
+                "Date Of Birth":"7/18/2003"
                 }
     return res.json(user);
 })
