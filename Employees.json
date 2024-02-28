@@ -1,0 +1,82 @@
+[
+    {
+        "Id": 1,
+        "EmployeeId": 1,
+        "First Name": "Anne-corinne",
+        "Last Name": "Woolforde",
+        "Date Of Join": "7/18/2023",
+        "Phone Number": "659-731-3271"
+    },
+    {
+        "Id": 2,
+        "EmployeeId": 2,
+        "First Name": "Arlan",
+        "Last Name": "Labrum",
+        "Date Of Join": "3/30/2023",
+        "Phone Number": "268-575-7577"
+    },
+    {
+        "Id": 3,
+        "EmployeeId": 3,
+        "First Name": "Cathleen",
+        "Last Name": "Bugge",
+        "Date Of Join": "6/17/2023",
+        "Phone Number": "313-134-6711"
+    },
+    {
+        "Id": 4,
+        "EmployeeId": 4,
+        "First Name": "Ruddy",
+        "Last Name": "Terran",
+        "Date Of Join": "9/13/2023",
+        "Phone Number": "450-447-0680"
+    },
+    {
+        "Id": 5,
+        "EmployeeId": 5,
+        "First Name": "Bendix",
+        "Last Name": "Alexsandrowicz",
+        "Date Of Join": "11/1/2023",
+        "Phone Number": "492-864-1718"
+    },
+    {
+        "Id": 6,
+        "EmployeeId": 6,
+        "First Name": "Winnah",
+        "Last Name": "Korbmaker",
+        "Date Of Join": "1/9/2024",
+        "Phone Number": "660-815-8773"
+    },
+    {
+        "Id": 7,
+        "EmployeeId": 7,
+        "First Name": "Sile",
+        "Last Name": "Wenban",
+        "Date Of Join": "1/20/2024",
+        "Phone Number": "132-738-3234"
+    },
+    {
+        "Id": 8,
+        "EmployeeId": 8,
+        "First Name": "Janifer",
+        "Last Name": "MacCumeskey",
+        "Date Of Join": "9/4/2023",
+        "Phone Number": "961-501-8443"
+    },
+    {
+        "Id": 9,
+        "EmployeeId": 9,
+        "First Name": "Aida",
+        "Last Name": "O'Hern",
+        "Date Of Join": "9/11/2023",
+        "Phone Number": "648-436-8781"
+    },
+    {
+        "Id": 10,
+        "EmployeeId": 10,
+        "First Name": "Nikita",
+        "Last Name": "Lanchbery",
+        "Date Of Join": "12/17/2023",
+        "Phone Number": "459-279-4095"
+    }
+]
