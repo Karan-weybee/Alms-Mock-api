@@ -6,7 +6,7 @@ const app = express();
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
-app.get('/api/employees', (req, res) => {
+app.get('/api/attendances', (req, res) => {
     return res.json(employees);
 });
 
@@ -14,12 +14,7 @@ app.get('/api/employees/:id', (req, res) => {
     const id = Number(req.params.id);
     const employee = employees.find((employee) => employee.EmployeeId == id);
     const user = {
-        "EmployeeId": employee.EmployeeId,
-        "First Name": employee['First Name'],
-        "Last Name":employee['Last Name'],
-        "Mobile": employee.Mobile,
-        "Date Of Join": employee['Date Of Join'],
-        "Role":employee.Role,
+        ...employee,
         "Email": `${employee['First Name']}@gmail.com`,
         "Gender": 'Male',
         "Address": "",
