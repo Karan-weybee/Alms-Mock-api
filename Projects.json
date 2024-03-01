@@ -1,82 +1,129 @@
 [
     {
-        "Id": 1,
-        "Name": "Ardelle",
-        "Manager": "Marxsen",
-        "Employees": ["Gwyn","Borg","Borgs"],
-        "StartDate": "7/13/2023",
-        "EndDate": "6/13/2023"
-    },
-    {
-        "Id": 2,
-        "Name": "Ruthann",
-        "Manager": "Imbrey",
-        "Employees": ["Gwyn","Borg","Borgs"],
-        "StartDate": "4/13/2023",
-        "EndDate": "6/7/2023"
-    },
-    {
-        "Id": 3,
-        "Name": "Denys",
-        "Manager": "Northwood",
-        "Employees":  ["Gwyn","Borg","Borgs"],
-        "StartDate": "2/3/2024",
-        "EndDate": "10/27/2023"
-    },
-    {
-        "Id": 4,
-        "Name": "Enos",
-        "Manager": "Rait",
-        "Employees": ["Gwyn","Borg","Borgs"],
-        "StartDate": "8/4/2023",
-        "EndDate": "2/29/2024"
-    },
-    {
-        "Id": 5,
-        "Name": "Conney",
-        "Manager": "Dalinder",
-        "Employees":  ["Gwyn","Borg","Borgs"],
-        "StartDate": "5/25/2023",
-        "EndDate": "3/7/2023"
-    },
-    {
-        "Id": 6,
-        "Name": "Bran",
-        "Manager": "Alldread",
-        "Employees":  ["Gwyn","Borg","Borgs"],
-        "StartDate": "8/11/2023",
-        "EndDate": "6/30/2023"
-    },
-    {
-        "Id": 7,
-        "Name": "Devi",
-        "Manager": "Gepheart",
-        "Employees":  ["Gwyn","Borg","Borgs"],
-        "StartDate": "2/16/2024",
-        "EndDate": "5/3/2023"
-    },
-    {
-        "Id": 8,
-        "Name": "Haley",
-        "Manager": "Bignell",
-        "Employees":  ["Gwyn","Borg","Borgs"],
-        "StartDate": "3/29/2023",
-        "EndDate": "7/2/2023"
-    },
-    {
-        "Id": 9,
-        "Name": "Caryl",
-        "Manager": "Setterington",
-        "Employees": ["Gwyn","Borg","Borgs"],
-        "StartDate": "11/11/2023",
-        "EndDate": "5/11/2023"
-    },
-    {
-        "Id": 10,
-        "Name": "Brendin",
-        "Manager": "Muckian",
-        "Employees":  ["Gwyn","Borg","Borgs"],
-        "StartDate": "7/5/2023",
-        "EndDate": "2/20/2024"
+        "Prev": true,
+        "Next": true,
+        "Count": 10,
+        "Projects": [
+            {
+                "Id": 1,
+                "Name": "Ardelle",
+                "Manager": "Marxsen",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "7/13/2023",
+                "EndDate": "6/13/2023"
+            },
+            {
+                "Id": 2,
+                "Name": "Ruthann",
+                "Manager": "Imbrey",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "4/13/2023",
+                "EndDate": "6/7/2023"
+            },
+            {
+                "Id": 3,
+                "Name": "Denys",
+                "Manager": "Northwood",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "2/3/2024",
+                "EndDate": "10/27/2023"
+            },
+            {
+                "Id": 4,
+                "Name": "Enos",
+                "Manager": "Rait",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "8/4/2023",
+                "EndDate": "2/29/2024"
+            },
+            {
+                "Id": 5,
+                "Name": "Conney",
+                "Manager": "Dalinder",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "5/25/2023",
+                "EndDate": "3/7/2023"
+            },
+            {
+                "Id": 6,
+                "Name": "Bran",
+                "Manager": "Alldread",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "8/11/2023",
+                "EndDate": "6/30/2023"
+            },
+            {
+                "Id": 7,
+                "Name": "Devi",
+                "Manager": "Gepheart",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "2/16/2024",
+                "EndDate": "5/3/2023"
+            },
+            {
+                "Id": 8,
+                "Name": "Haley",
+                "Manager": "Bignell",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "3/29/2023",
+                "EndDate": "7/2/2023"
+            },
+            {
+                "Id": 9,
+                "Name": "Caryl",
+                "Manager": "Setterington",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "11/11/2023",
+                "EndDate": "5/11/2023"
+            },
+            {
+                "Id": 10,
+                "Name": "Brendin",
+                "Manager": "Muckian",
+                "Employees": [
+                    "Gwyn",
+                    "Borg",
+                    "Borgs"
+                ],
+                "StartDate": "7/5/2023",
+                "EndDate": "2/20/2024"
+            }
+        ]
     }
 ]
