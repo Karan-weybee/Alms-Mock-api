@@ -35,7 +35,7 @@ app.get('/api/leaves/:id', (req, res) => {
         "Reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
         "Status": "Approve"
     }
-    return res.json(LeaveEmployee);
+    return res.json(LeaveDetails);
 });
 
 module.exports = app;

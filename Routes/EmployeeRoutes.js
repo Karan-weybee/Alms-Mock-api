@@ -12,7 +12,10 @@ app.get('/api/employees', (req, res) => {
 
 app.get('/api/employees/:id', (req, res) => {
     const id = Number(req.params.id);
-    const employee = employees.find((employee) => employee.EmployeeId == id);
+    console.log(id)
+    const employee = employees[0]["Employees"].find((employee) => employee.EmployeeId == id);
+    
+    console.log(employee)
     const user = {
         "EmployeeId": employee.EmployeeId,
         "First Name": employee.FirstName,

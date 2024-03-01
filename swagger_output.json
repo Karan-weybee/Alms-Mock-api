@@ -2,13 +2,38 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "REST API",
-    "description": ""
+    "title": "Your API Documentation",
+    "description": "Description of your API"
   },
   "host": "localhost:8000",
   "basePath": "/",
+  "tags": [
+    {
+      "name": "Employees",
+      "description": "Operations related to employees"
+    },
+    {
+      "name": "Attendance",
+      "description": "Operations related to attendance"
+    },
+    {
+      "name": "Leaves",
+      "description": "Operations related to leaves"
+    },
+    {
+      "name": "Projects",
+      "description": "Operations related to projects"
+    }
+  ],
   "schemes": [
     "http"
+  ],
+  "securityDefinitions": {},
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
   ],
   "paths": {
     "/api/employees": {
@@ -140,6 +165,70 @@
       }
     },
     "/api/leaves/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/projects": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/projects/manager/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/projects/employee/{id}": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/projects/{id}": {
       "get": {
         "description": "",
         "parameters": [
