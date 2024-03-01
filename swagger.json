@@ -1,0 +1,10 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Leave Management API",
+      "description": "API documentation for leave management system"
+    },
+    "basePath": "/"
+  }
+  

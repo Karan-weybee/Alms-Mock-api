@@ -1,0 +1,27 @@
+[
+    {
+        "Prev": true,
+        "Next": true,
+        "Count": 10,
+        "LeaveID":1,
+        "EmployeeId":1,
+        "Leaves": [
+            {
+                "LeaveType": "Larry Crowne",
+                "From": "1/22/2024",
+                "To": "10/30/2023",
+                "NoOfDays": 45,
+                "Reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
+                "Status": "Approve"
+            },
+            {
+                "LeaveType": " Crowne",
+                "From": "1/22/2024",
+                "To": "10/30/2023",
+                "NoOfDays": 45,
+                "Reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
+                "Status": "Approve"
+            }
+        ]
+    }
+]

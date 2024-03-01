@@ -1,6 +1,13 @@
 [
 {
   "/api/employees" : "For get all employees",
-  "/api/employees/1":"For get Details of Employee"
+  "/api/employees/1":"For get details of employee",
+  "/api/attendances":"For get all attendances",
+  "/api/attendances/manager/1":"Get all employee attendances under this manager",
+  "/api/attendances/employee/1":"Get all attendance for perticular employee",
+  "/api/leaves":"For get all leaves",
+  "/api/leaves/manager/1":"Get all employee leaves under this manager",
+  "/api/leaves/employee/1":"Get all leaves for perticular employee",
+  "api/leaves/1":"Get leave details"
 }
 ]

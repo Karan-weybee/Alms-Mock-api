@@ -15,12 +15,12 @@ app.get('/api/employees/:id', (req, res) => {
     const employee = employees.find((employee) => employee.EmployeeId == id);
     const user = {
         "EmployeeId": employee.EmployeeId,
-        "First Name": employee['First Name'],
-        "Last Name":employee['Last Name'],
+        "First Name": employee.FirstName,
+        "Last Name":employee.LastName,
         "Mobile": employee.Mobile,
-        "Date Of Join": employee['Date Of Join'],
+        "Date Of Join": employee.DateOfJoin,
         "Role":employee.Role,
-        "Email": `${employee['First Name']}@gmail.com`,
+        "Email": `${employee.FirstName}@gmail.com`,
         "Gender": 'Male',
         "Address": "",
         "Projects": ["xyz"],

@@ -1,35 +1,25 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const employees = require('../Employees.json');
+const Attendances = require('../Attendances.json');
+const AttendanceEmployee = require('../AttendancesEmployee.json')
 const app = express();
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
 app.get('/api/attendances', (req, res) => {
-    return res.json(employees);
+    return res.json(Attendances);
 });
 
-app.get('/api/employees/:id', (req, res) => {
-    const id = Number(req.params.id);
-    const employee = employees.find((employee) => employee.EmployeeId == id);
-    const user = {
-        ...employee,
-        "Email": `${employee['First Name']}@gmail.com`,
-        "Gender": 'Male',
-        "Address": "",
-        "Projects": ["xyz"],
-        "Manger": "abc",
-        "Date Of Birth": "7/18/2003"
-    }
-    return res.json(user);
+app.get('/api/attendances/manager/:id', (req, res) => {
+    return res.json(Attendances);
 });
 
-app.post('/api/employees', (req, res) => {
-    const newEmployee = req.body;
-    employees.push(newEmployee);
-    // Return the newly created employee
-    return res.status(201).json(newEmployee);
+
+//if you pass below api in date then it filtered by date
+app.get('/api/attendances/employee/:id', (req, res) => {
+    return res.json(AttendanceEmployee);
 });
+
 
 module.exports = app;
