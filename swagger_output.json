@@ -2,8 +2,8 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "Your API Documentation",
-    "description": "Description of your API"
+    "title": "Mock API Documentation",
+    "description": ""
   },
   "host": "localhost:8000",
   "basePath": "/",
@@ -13,7 +13,7 @@
       "description": "Operations related to employees"
     },
     {
-      "name": "Attendance",
+      "name": "Attendances",
       "description": "Operations related to attendance"
     },
     {
@@ -23,6 +23,10 @@
     {
       "name": "Projects",
       "description": "Operations related to projects"
+    },
+    {
+      "name": "Holidays",
+      "description": "Operations related to Holidays"
     }
   ],
   "schemes": [
@@ -38,6 +42,9 @@
   "paths": {
     "/api/employees": {
       "get": {
+        "tags": [
+          "Employees"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -46,6 +53,9 @@
         }
       },
       "post": {
+        "tags": [
+          "Employees"
+        ],
         "description": "",
         "responses": {
           "201": {
@@ -56,6 +66,9 @@
     },
     "/api/employees/{id}": {
       "get": {
+        "tags": [
+          "Employees"
+        ],
         "description": "",
         "parameters": [
           {
@@ -74,6 +87,9 @@
     },
     "/api/attendances": {
       "get": {
+        "tags": [
+          "Attendances"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -84,6 +100,9 @@
     },
     "/api/attendances/manager/{id}": {
       "get": {
+        "tags": [
+          "Attendances"
+        ],
         "description": "",
         "parameters": [
           {
@@ -102,6 +121,9 @@
     },
     "/api/attendances/employee/{id}": {
       "get": {
+        "tags": [
+          "Attendances"
+        ],
         "description": "",
         "parameters": [
           {
@@ -120,6 +142,9 @@
     },
     "/api/leaves": {
       "get": {
+        "tags": [
+          "Leaves"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -130,6 +155,9 @@
     },
     "/api/leaves/manager/{id}": {
       "get": {
+        "tags": [
+          "Leaves"
+        ],
         "description": "",
         "parameters": [
           {
@@ -148,6 +176,9 @@
     },
     "/api/leaves/employee/{id}": {
       "get": {
+        "tags": [
+          "Leaves"
+        ],
         "description": "",
         "parameters": [
           {
@@ -166,6 +197,9 @@
     },
     "/api/leaves/{id}": {
       "get": {
+        "tags": [
+          "Leaves"
+        ],
         "description": "",
         "parameters": [
           {
@@ -184,6 +218,9 @@
     },
     "/api/projects": {
       "get": {
+        "tags": [
+          "Projects"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -194,6 +231,9 @@
     },
     "/api/projects/manager/{id}": {
       "get": {
+        "tags": [
+          "Projects"
+        ],
         "description": "",
         "parameters": [
           {
@@ -212,6 +252,9 @@
     },
     "/api/projects/employee/{id}": {
       "get": {
+        "tags": [
+          "Projects"
+        ],
         "description": "",
         "parameters": [
           {
@@ -230,6 +273,9 @@
     },
     "/api/projects/{id}": {
       "get": {
+        "tags": [
+          "Projects"
+        ],
         "description": "",
         "parameters": [
           {
@@ -239,6 +285,19 @@
             "type": "string"
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/holidays": {
+      "get": {
+        "tags": [
+          "Holidays"
+        ],
+        "description": "",
         "responses": {
           "200": {
             "description": "OK"

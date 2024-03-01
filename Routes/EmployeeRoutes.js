@@ -7,10 +7,12 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/api/employees', (req, res) => {
+    // #swagger.tags = ['Employees']
     return res.json(employees);
 });
 
 app.get('/api/employees/:id', (req, res) => {
+     // #swagger.tags = ['Employees']
     const id = Number(req.params.id);
     console.log(id)
     const employee = employees[0]["Employees"].find((employee) => employee.EmployeeId == id);
@@ -34,6 +36,7 @@ app.get('/api/employees/:id', (req, res) => {
 });
 
 app.post('/api/employees', (req, res) => {
+    // #swagger.tags = ['Employees']
     const newEmployee = req.body;
     employees.push(newEmployee);
     // Return the newly created employee

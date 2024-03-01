@@ -8,19 +8,22 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/api/projects', (req, res) => {
+    // #swagger.tags = ['Projects']
     return res.json(Projects);
 });
 
 app.get('/api/projects/manager/:id', (req, res) => {
+    // #swagger.tags = ['Projects']
     return res.json(Projects);
 });
 
 app.get('/api/projects/employee/:id', (req, res) => {
+    // #swagger.tags = ['Projects']
     return res.json(Projects);
 });
 
 app.get('/api/projects/:id', (req, res) => {
-
+// #swagger.tags = ['Projects']
     const ProjectDetails ={
         "Id": Number(req.params.id),
         "Name": "Ardelle",

@@ -8,22 +8,23 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/api/leaves', (req, res) => {
+    // #swagger.tags = ['Leaves']
     return res.json(Leaves);
 });
 
 app.get('/api/leaves/manager/:id', (req, res) => {
-  
+  // #swagger.tags = ['Leaves']
     return res.json(Leaves);
 });
 
 app.get('/api/leaves/employee/:id', (req, res) => {
-  
+  // #swagger.tags = ['Leaves']
     return res.json(LeaveEmployee);
 });
 
 //for leave details 
 app.get('/api/leaves/:id', (req, res) => {
-  
+  // #swagger.tags = ['Leaves']
     const LeaveDetails = {
         "LeaveId":Number(req.params.id),
         "EmployeeId": 1,
