@@ -30,6 +30,7 @@ app.get('/api/employees/:id', (req, res) => {
         "Address": "",
         "Projects": ["xyz"],
         "Manger": "abc",
+        "Employees":[""],
         "Date Of Birth": "7/18/2003"
     }
     return res.json(user);
