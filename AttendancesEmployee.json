@@ -1,27 +1,27 @@
 [
     {
-    "Prev": true,
-    "Next": true,
-    "Count":3,
-    "EmployeeId":1,
-    "Attendances" : [
+    "prev": true,
+    "next": true,
+    "count":3,
+    "employeeId":1,
+    "attendances" : [
         {
-            "Date":"7/18/2003",
-            "PunchTimes":["09:00 AM","01:30 PM","02:30 PM","06:15 PM"],
-            "TotalTime":"8h",
-            "Status":"Approve"
+            "date":"7/18/2003",
+            "punchTimes":["09:00 AM","01:30 PM","02:30 PM","06:15 PM"],
+            "totalTime":"8h",
+            "status":"Approve"
         },
         {
-            "Date":"7/19/2003",
-            "PunchTimes":["09:00 AM","01:30 PM","02:30 PM","06:15 PM"],
-            "TotalTime":"8h",
-            "Status":"Approve"
+            "date":"7/19/2003",
+            "punchTimes":["09:00 AM","01:30 PM","02:30 PM","06:15 PM"],
+            "totalTime":"8h",
+            "status":"Approve"
         },
         {
-            "Date":"7/20/2003",
-            "PunchTimes":["09:00 AM","01:30 PM","02:30 PM","06:15 PM"],
-            "TotalTime":"8h",
-            "Status":"Approve"
+            "date":"7/20/2003",
+            "punchTimes":["09:00 AM","01:30 PM","02:30 PM","06:15 PM"],
+            "totalTime":"8h",
+            "status":"Approve"
         }
     ]
     }

@@ -1,11 +1,11 @@
 [
     {
-      "Year": 2023,
-      "Month": 1,
-      "Prev": true,
-      "Next": true,
-      "Count":10,
-      "Attendance": [
+      "year": 2023,
+      "month": 1,
+      "prev": true,
+      "next": true,
+      "count":10,
+      "attendance": [
         {
           "id": 1,
           "name": "Personnalisée",

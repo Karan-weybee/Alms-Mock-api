@@ -22,19 +22,19 @@ app.get('/api/employees/:id', (req, res) => {
     {
         "success": true,
         "data": {
-            "EmployeeId": employee.EmployeeId,
-            "First Name": employee.FirstName,
-            "Last Name":employee.LastName,
-            "Mobile": employee.Mobile,
-            "Date Of Join": employee.DateOfJoin,
-            "Role":employee.Role,
-            "Email": `${employee.FirstName}@gmail.com`,
-            "Gender": 'Male',
-            "Address": "",
-            "Projects": ["xyz"],
-            "Manger": "abc",
-            "Employees":[""],
-            "Date Of Birth": "7/18/2003"
+            "employeeId": employee.EmployeeId,
+            "first Name": employee.FirstName,
+            "last Name":employee.LastName,
+            "mobile": employee.Mobile,
+            "dateOfJoin": employee.DateOfJoin,
+            "role":employee.Role,
+            "email": `${employee.FirstName}@gmail.com`,
+            "gender": 'Male',
+            "address": "",
+            "projects": ["xyz"],
+            "manger": "abc",
+            "employees":[""],
+            "dateOfBirth": "7/18/2003"
         },
         "message": "Record loaded successfully",
         "error": null

@@ -25,17 +25,23 @@ app.get('/api/leaves/employee/:id', (req, res) => {
 //for leave details 
 app.get('/api/leaves/:id', (req, res) => {
   // #swagger.tags = ['Leaves']
-    const LeaveDetails = {
-        "LeaveId":Number(req.params.id),
-        "EmployeeId": 1,
-        "EmployeeName": "Cyperaceae",
-        "LeaveType": "Larry Crowne",
-        "From": "1/22/2024",
-        "To": "10/30/2023",
-        "NoOfDays": 45,
-        "Reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
-        "Status": "Approve"
-    }
+    const LeaveDetails = 
+    {
+        "success": true,
+        "data":{
+            "leaveId":Number(req.params.id),
+            "employeeId": 1,
+            "employeeName": "Cyperaceae",
+            "leaveType": "Larry Crowne",
+            "from": "1/22/2024",
+            "to": "10/30/2023",
+            "noOfDays": 45,
+            "reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
+            "status": "Approve"
+        },
+        "message": "Record loaded successfully",
+        "error": null
+      }
     return res.json(LeaveDetails);
 });
 
