@@ -1,109 +1,112 @@
-[
-    {
-        "Prev": true,
-        "Next": true,
-        "Count":10,
-        "Leaves" : [
-    {
-        "Id": 1,
-        "EmployeeName": "Cyperaceae",
-        "LeaveType": "Larry Crowne",
-        "From": "1/22/2024",
-        "To": "10/30/2023",
-        "NoOfDays": 45,
-        "Reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
-        "Status": "Approve"
+{
+    "success": true,
+    "data": {
+        "prev": true,
+        "next": true,
+        "count": 10,
+        "leaves": [
+            {
+                "id": 1,
+                "employeeName": "Cyperaceae",
+                "leaveType": "Larry Crowne",
+                "from": "1/22/2024",
+                "to": "10/30/2023",
+                "noOfDays": 45,
+                "reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
+                "status": "Approve"
+            },
+            {
+                "id": 2,
+                "employeeName": "Fabaceae",
+                "leaveType": "Time Out (L'emploi du temps)",
+                "from": "3/25/2023",
+                "to": "5/2/2023",
+                "noOfDays": 29,
+                "reason": "Arthur and the Invisibles",
+                "status": "Approve"
+            },
+            {
+                "id": 3,
+                "employeeName": "Cucurbitaceae",
+                "leaveType": "7th Cavalry (Seventh Cavalry)",
+                "from": "5/21/2023",
+                "to": "12/27/2023",
+                "noOfDays": 17,
+                "reason": "Steel Helmet, The",
+                "status": "Approve"
+            },
+            {
+                "id": 4,
+                "employeeName": "Loasaceae",
+                "leaveType": "Goya's Ghosts",
+                "from": "10/10/2023",
+                "to": "1/13/2024",
+                "noOfDays": 71,
+                "reason": "Real Men",
+                "status": "Approve"
+            },
+            {
+                "id": 5,
+                "employeeName": "Gesneriaceae",
+                "leaveType": "Medea",
+                "from": "2/24/2024",
+                "to": "5/5/2023",
+                "noOfDays": 82,
+                "reason": "Break Up",
+                "status": "Approve"
+            },
+            {
+                "id": 6,
+                "employeeName": "Asteraceae",
+                "leaveType": "Love and Other Troubles",
+                "from": "10/11/2023",
+                "to": "10/26/2023",
+                "noOfDays": 46,
+                "reason": "The Youngest Profession",
+                "status": "Approve"
+            },
+            {
+                "id": 7,
+                "employeeName": "Fabaceae",
+                "leaveType": "FBI: Frikis buscan incordiar",
+                "from": "5/9/2023",
+                "to": "2/12/2024",
+                "noOfDays": 91,
+                "reason": "Penthouse",
+                "status": "Approve"
+            },
+            {
+                "id": 8,
+                "employeeName": "Geraniaceae",
+                "leaveType": "Life and Times of Judge Roy Bean, The",
+                "from": "8/5/2023",
+                "to": "6/29/2023",
+                "noOfDays": 61,
+                "reason": "Guts (Agallas)",
+                "status": "Approve"
+            },
+            {
+                "id": 9,
+                "employeeName": "Brassicaceae",
+                "leaveType": "Where Are My Children?",
+                "from": "6/14/2023",
+                "to": "3/6/2023",
+                "noOfDays": 30,
+                "reason": "Time to Kill (Tempo di uccidere)",
+                "status": "Approve"
+            },
+            {
+                "id": 10,
+                "employeeName": "Cistaceae",
+                "leaveType": "Possession of Joel Delaney, The",
+                "from": "7/1/2023",
+                "to": "1/25/2024",
+                "noOfDays": 44,
+                "reason": "Scooby-Doo! Curse of the Lake Monster",
+                "status": "Approve"
+            }
+        ]
     },
-    {
-        "Id": 2,
-        "EmployeeName": "Fabaceae",
-        "LeaveType": "Time Out (L'emploi du temps)",
-        "From": "3/25/2023",
-        "To": "5/2/2023",
-        "NoOfDays": 29,
-        "Reason": "Arthur and the Invisibles",
-        "Status": "Approve"
-    },
-    {
-        "Id": 3,
-        "EmployeeName": "Cucurbitaceae",
-        "LeaveType": "7th Cavalry (Seventh Cavalry)",
-        "From": "5/21/2023",
-        "To": "12/27/2023",
-        "NoOfDays": 17,
-        "Reason": "Steel Helmet, The",
-        "Status": "Approve"
-    },
-    {
-        "Id": 4,
-        "EmployeeName": "Loasaceae",
-        "LeaveType": "Goya's Ghosts",
-        "From": "10/10/2023",
-        "To": "1/13/2024",
-        "NoOfDays": 71,
-        "Reason": "Real Men",
-        "Status": "Approve"
-    },
-    {
-        "Id": 5,
-        "EmployeeName": "Gesneriaceae",
-        "Leave Type": "Medea",
-        "From": "2/24/2024",
-        "To": "5/5/2023",
-        "NoOfDays": 82,
-        "Reason": "Break Up",
-        "Status": "Approve"
-    },
-    {
-        "Id": 6,
-        "Employee Name": "Asteraceae",
-        "LeaveType": "Love and Other Troubles",
-        "From": "10/11/2023",
-        "To": "10/26/2023",
-        "NoOfDays": 46,
-        "Reason": "The Youngest Profession",
-        "Status": "Approve"
-    },
-    {
-        "Id": 7,
-        "EmployeeName": "Fabaceae",
-        "Leave Type": "FBI: Frikis buscan incordiar",
-        "From": "5/9/2023",
-        "To": "2/12/2024",
-        "NoOfDays": 91,
-        "Reason": "Penthouse",
-        "Status": "Approve"
-    },
-    {
-        "Id": 8,
-        "EmployeeName": "Geraniaceae",
-        "Leave Type": "Life and Times of Judge Roy Bean, The",
-        "From": "8/5/2023",
-        "To": "6/29/2023",
-        "NoOfDays": 61,
-        "Reason": "Guts (Agallas)",
-        "Status": "Approve"
-    },
-    {
-        "Id": 9,
-        "Employee Name": "Brassicaceae",
-        "Leave Type": "Where Are My Children?",
-        "From": "6/14/2023",
-        "To": "3/6/2023",
-        "No Of Days": 30,
-        "Reason": "Time to Kill (Tempo di uccidere)",
-        "Status": "Approve"
-    },
-    {
-        "Id": 10,
-        "EmployeeName": "Cistaceae",
-        "LeaveType": "Possession of Joel Delaney, The",
-        "From": "7/1/2023",
-        "To": "1/25/2024",
-        "NoOfDays": 44,
-        "Reason": "Scooby-Doo! Curse of the Lake Monster",
-        "Status": "Approve"
-    }
-]
-    }
-]
+    "message": "Record loaded successfully",
+    "error": null
+}

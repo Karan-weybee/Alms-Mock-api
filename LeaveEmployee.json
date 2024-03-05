@@ -1,27 +1,30 @@
-[
-    {
-        "Prev": true,
-        "Next": true,
-        "Count": 10,
-        "LeaveID":1,
-        "EmployeeId":1,
-        "Leaves": [
+{
+    "success": true,
+    "data": {
+        "prev": true,
+        "next": true,
+        "count": 10,
+        "leaveId": 1,
+        "employeeId": 1,
+        "leaves": [
             {
-                "LeaveType": "Larry Crowne",
-                "From": "1/22/2024",
-                "To": "10/30/2023",
-                "NoOfDays": 45,
-                "Reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
-                "Status": "Approve"
+                "leaveType": "Larry Crowne",
+                "from": "1/22/2024",
+                "to": "10/30/2023",
+                "noOfDays": 45,
+                "reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
+                "status": "Approve"
             },
             {
-                "LeaveType": " Crowne",
-                "From": "1/22/2024",
-                "To": "10/30/2023",
-                "NoOfDays": 45,
-                "Reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
-                "Status": "Approve"
+                "leaveType": " Crowne",
+                "from": "1/22/2024",
+                "to": "10/30/2023",
+                "noOfDays": 45,
+                "reason": "(Absolutions) Pipilotti's Mistakes ((Entlastungen) Pipilottis Fehler)",
+                "status": "Approve"
             }
         ]
-    }
-]
+    },
+    "message": "Record loaded successfully",
+    "error": null
+}

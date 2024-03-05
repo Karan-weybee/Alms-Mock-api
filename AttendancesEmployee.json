@@ -1,5 +1,6 @@
-[
-    {
+{
+    "success": true,
+    "data": {
     "prev": true,
     "next": true,
     "count":3,
@@ -24,5 +25,7 @@
             "status":"Approve"
         }
     ]
-    }
-]
+    },
+    "message": "Record loaded successfully",
+    "error": null
+}

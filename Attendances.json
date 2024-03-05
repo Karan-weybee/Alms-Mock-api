@@ -1,5 +1,6 @@
-[
-    {
+{
+  "success": true,
+  "data": {
       "year": 2023,
       "month": 1,
       "prev": true,
@@ -367,6 +368,8 @@
           ]
         }
       ]
-    }
-  ]
+    },
+    "message": "Record loaded successfully",
+    "error": null
+}
   

@@ -15,20 +15,19 @@ app.get('/api/employees/:id', (req, res) => {
      // #swagger.tags = ['Employees']
     const id = Number(req.params.id);
     console.log(id)
-    const employee = employees[0]["Employees"].find((employee) => employee.EmployeeId == id);
+    const employee = employees.data["employees"].find((employee) => employee.EmployeeId == id);
     
     console.log(employee)
-    const user = 
-    {
+    const user = {
         "success": true,
         "data": {
-            "employeeId": employee.EmployeeId,
-            "first Name": employee.FirstName,
-            "last Name":employee.LastName,
-            "mobile": employee.Mobile,
-            "dateOfJoin": employee.DateOfJoin,
-            "role":employee.Role,
-            "email": `${employee.FirstName}@gmail.com`,
+            "employeeId": 1,
+            "first Name": "Anne",
+            "last Name":"Woolforde",
+            "mobile": "659-731-3271",
+            "dateOfJoin": "7/18/2023",
+            "role": "employee",
+            "email": `Anne@gmail.com`,
             "gender": 'Male',
             "address": "",
             "projects": ["xyz"],
