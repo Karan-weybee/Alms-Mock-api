@@ -18,21 +18,28 @@ app.get('/api/employees/:id', (req, res) => {
     const employee = employees[0]["Employees"].find((employee) => employee.EmployeeId == id);
     
     console.log(employee)
-    const user = {
-        "EmployeeId": employee.EmployeeId,
-        "First Name": employee.FirstName,
-        "Last Name":employee.LastName,
-        "Mobile": employee.Mobile,
-        "Date Of Join": employee.DateOfJoin,
-        "Role":employee.Role,
-        "Email": `${employee.FirstName}@gmail.com`,
-        "Gender": 'Male',
-        "Address": "",
-        "Projects": ["xyz"],
-        "Manger": "abc",
-        "Employees":[""],
-        "Date Of Birth": "7/18/2003"
-    }
+    const user = 
+    {
+        "success": true,
+        "data": {
+            "EmployeeId": employee.EmployeeId,
+            "First Name": employee.FirstName,
+            "Last Name":employee.LastName,
+            "Mobile": employee.Mobile,
+            "Date Of Join": employee.DateOfJoin,
+            "Role":employee.Role,
+            "Email": `${employee.FirstName}@gmail.com`,
+            "Gender": 'Male',
+            "Address": "",
+            "Projects": ["xyz"],
+            "Manger": "abc",
+            "Employees":[""],
+            "Date Of Birth": "7/18/2003"
+        },
+        "message": "Record loaded successfully",
+        "error": null
+      }
+    
     return res.json(user);
 });
 

@@ -24,16 +24,26 @@ app.get('/api/projects/employee/:id', (req, res) => {
 
 app.get('/api/projects/:id', (req, res) => {
 // #swagger.tags = ['Projects']
-    const ProjectDetails ={
-        "Id": Number(req.params.id),
-        "Name": "Ardelle",
-        "Descriptions":"shdfjh ksujghjs hfjkgkdl dhjgfh djhfgd",
-        "Manager": "Marxsen",
-        "Employees": ["Gwyn","Borg","Borgs"],
-        "StartDate": "7/13/2023",
-        "EndDate": "6/13/2023"
-    
-    }
+    const ProjectDetails =
+    {
+        "success": true,
+        "data": {
+          "employees": [
+            "John",
+            "Jane",
+            "Michael",
+            "Emily"
+          ],
+          "id": Number(req.params.id),
+          "name": "Project 1",
+          "description": "Description for Project 1",
+          "startDate": "2024-01-01T00:00:00",
+          "endDate": "2024-12-31T00:00:00",
+          "manager": "David"
+        },
+        "message": "Record loaded successfully",
+        "error": null
+      }
     return res.json(ProjectDetails);
 });
 module.exports = app;
