@@ -1,15 +1,12 @@
 {
     "success": true,
     "data": {
-        "prev": true,
-        "next": true,
         "count": 10,
         "employees": [
             {
                 "id": 1,
                 "employeeId": 1,
-                "firstName": "Anne",
-                "lastName": "Woolforde",
+                "name": "Anne Woolforde",
                 "mobile": "659-731-3271",
                 "dateOfJoin": "7/18/2023",
                 "role": "employee"
@@ -17,8 +14,7 @@
             {
                 "id": 2,
                 "employeeId": 2,
-                "firstName": "Arlan",
-                "lastName": "Labrum",
+                "name": "Arlan Labrum",
                 "mobile": "268-575-7577",
                 "dateOfJoin": "3/30/2023",
                 "role": "employee"
@@ -26,8 +22,7 @@
             {
                 "id": 3,
                 "employeeId": 3,
-                "firstName": "Cathleen",
-                "lastName": "Bugge",
+                "name": "Cathleen Bugge",
                 "mobile": "313-134-6711",
                 "dateOfJoin": "6/17/2023",
                 "role": "employee"
@@ -35,8 +30,7 @@
             {
                 "id": 4,
                 "employeeId": 4,
-                "firstName": "Ruddy",
-                "lastName": "Terran",
+                "name": "Ruddy Terran",
                 "mobile": "450-447-0680",
                 "dateOfJoin": "9/13/2023",
                 "role": "employee"
@@ -44,8 +38,7 @@
             {
                 "id": 5,
                 "employeeId": 5,
-                "firstName": "Bendix",
-                "lastName": "Alexsandrowicz",
+                "name": "Bendix Alexsandrowicz",
                 "mobile": "492-864-1718",
                 "dateOfJoin": "11/1/2023",
                 "role": "employee"
@@ -53,8 +46,7 @@
             {
                 "id": 6,
                 "employeeId": 6,
-                "firstName": "Winnah",
-                "lastName": "Korbmaker",
+                "name": "Winnah Korbmaker",
                 "mobile": "660-815-8773",
                 "dateOfJoin": "1/9/2024",
                 "role": "employee"
@@ -62,8 +54,7 @@
             {
                 "id": 7,
                 "employeeId": 7,
-                "firstName": "Sile",
-                "lastName": "Wenban",
+                "name": "Sile Wenban",
                 "mobile": "132-738-3234",
                 "dateOfJoin": "1/20/2024",
                 "role": "employee"
@@ -71,8 +62,7 @@
             {
                 "id": 8,
                 "employeeId": 8,
-                "firstName": "Janifer",
-                "lastName": "MacCumeskey",
+                "name": "Janifer MacCumeskey",
                 "mobile": "961-501-8443",
                 "dateOfJoin": "9/4/2023",
                 "role": "employee"
@@ -80,8 +70,7 @@
             {
                 "id": 9,
                 "employeeId": 9,
-                "firstName": "Aida",
-                "lastName": "O'Hern",
+                "name": "Aida O'Hern",
                 "mobile": "648-436-8781",
                 "dateOfJoin": "9/11/2023",
                 "role": "employee"
@@ -89,8 +78,7 @@
             {
                 "id": 10,
                 "employeeId": 10,
-                "firstName": "Nikita",
-                "lastName": "Lanchbery",
+                "name": "Nikita Lanchbery",
                 "mobile": "459-279-4095",
                 "dateOfJoin": "12/17/2023",
                 "role": "employee"

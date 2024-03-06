@@ -3,8 +3,6 @@
   "data": {
       "year": 2023,
       "month": 1,
-      "prev": true,
-      "next": true,
       "count":10,
       "attendance": [
         {

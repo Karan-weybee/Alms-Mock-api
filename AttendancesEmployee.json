@@ -1,8 +1,6 @@
 {
     "success": true,
     "data": {
-    "prev": true,
-    "next": true,
     "count":3,
     "employeeId":1,
     "attendances" : [
